@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Landing Page</title>
+    <link rel="stylesheet" href="la.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <div class="container">
+            <!-- Logo -->
+            <div class="logo">
+                <a href="#">RestaurantName</a>
+            </div>
+
+            <!-- Navigation Menu -->
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+
+            <!-- Call-to-Action Buttons -->
+            <div class="cta-buttons">
+                <a href="#reserve" class="cta reserve">Reserve a Table</a>
+                <a href="#order" class="cta order">Order Online</a>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="overlay">
+            <div class="hero-content">
+                <h1 class="hero-title">Savor Every Bite</h1>
+                <p class="hero-subtitle">Experience Fine Dining Like Never Before</p>
+                <div class="cta-buttons">
+                    <a href="#reservation" class="btn">Reserve a Table</a>
+                    <a href="#order" class="btn btn-outline">Order Online</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+<section class="about-section">
+    <div class="about-container">
+      <div class="about-image">
+        <img src="reshero.png" alt="Restaurant Interior">
+      </div>
+      <div class="about-content">
+        <h2>Our Story</h2>
+        <p>
+          Welcome to [Restaurant Name], where passion meets the plate. Established in the heart of the city,
+          we pride ourselves on crafting exquisite dishes using locally sourced ingredients. Our chef’s inspiration
+            and culinary expertise ensure every meal is a memorable experience.
+        </p>
+        <a href="#more-about" class="about-btn">Read More</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="menu-highlights">
+    <h2 class="section-title">Our Signature Dishes</h2>
+    <div class="menu-items">
+        <!-- Menu Item 1 -->
+        <div class="menu-item">
+            <img src="images1.jpg" alt="Signature Dish 1">
+            <div class="menu-info">
+                <h3>Grilled Salmon</h3>
+                <p>A perfectly grilled salmon fillet, served with seasonal vegetables and lemon butter sauce.</p>
+                <span class="price">$24</span>
+            </div>
+        </div>
+
+        <!-- Menu Item 2 -->
+        <div class="menu-item">
+            <img src="pasta.jpg" alt="Signature Dish 2">
+            <div class="menu-info">
+                <h3>Truffle Pasta</h3>
+                <p>Freshly made pasta with a creamy truffle sauce, garnished with Parmesan and herbs.</p>
+                <span class="price">$19</span>
+            </div>
+        </div>
+
+        <!-- Menu Item 3 -->
+        <div class="menu-item">
+            <img src="salad.jpg" alt="Dish 3">
+            <div class="menu-info">
+              <h3>Veggie Salad</h3>
+              <p>Fresh, crisp vegetables with a tangy vinaigrette dressing.</p>
+            </div>
+          </div>
+    </div>
+    <a href="#" class="view-full-menu">View Full Menu</a>
+</section>
+
+<!-- HTML -->
+<section class="testimonials">
+    <h2>What Our Guests Say</h2>
+    <div class="testimonial-container">
+      <div class="testimonial-card">
+        <p class="testimonial-text">“Amazing food and a beautiful ambiance! The chef's special is a must-try.”</p>
+        <p class="testimonial-author">— Sarah M.</p>
+      </div>
+      <div class="testimonial-card">
+        <p class="testimonial-text">“A wonderful experience! Service was top-notch, and the food was exquisite.”</p>
+        <p class="testimonial-author">— John D.</p>
+      </div>
+      <div class="testimonial-card">
+        <p class="testimonial-text">“Perfect spot for date nights! Loved every dish, especially the dessert.”</p>
+        <p class="testimonial-author">— Emily T.</p>
+      </div>
+    </div>
+  </section>
+  
+  <section class="gallery-section">
+    <h2>Experience the Ambiance</h2>
+    <div class="gallery-grid">
+        <div class="gallery-item">
+            <img src="sign1.jpg" alt="Dish 1">
+            <div class="overlay">
+                <p>Signature Dish 1</p>
+            </div>
+        </div>
+        <div class="gallery-item">
+            <img src="sign2.jpg" alt="Dish 2">
+            <div class="overlay">
+                <p>Signature Dish 2</p>
+            </div>
+        </div>
+        <div class="gallery-item">
+            <img src="interior.avif" alt="Restaurant Interior">
+            <div class="overlay">
+                <p>Elegant Dining Area</p>
+            </div>
+        </div>
+        <div class="gallery-item">
+            <img src="sign3.jpg" alt="Dish 3">
+            <div class="overlay">
+                <p>Signature Dish 3</p>
+            </div>
+        </div>
+        <div class="gallery-item">
+            <img src="bar.jpg" alt="Bar Area">
+            <div class="overlay">
+                <p>Cozy Bar</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- HTML for Special Offers / Events Section -->
+<section class="special-offers">
+    <h2 class="section-title">Events & Special Offers</h2>
+    <div class="offers-container">
+      <!-- Offer/Event Card 1 -->
+      <div class="offer-card">
+        <h3 class="offer-title">Wine Tasting Night</h3>
+        <p class="offer-description">
+          Join us every Friday night for a curated selection of wines from around the world.
+        </p>
+        <p class="offer-date">Next Event: November 20, 2024</p>
+        <button class="offer-btn">Reserve a Spot</button>
+      </div>
+      <!-- Offer/Event Card 2 -->
+      <div class="offer-card">
+        <h3 class="offer-title">Sunday Brunch Special</h3>
+        <p class="offer-description">
+          Enjoy a discounted brunch menu with seasonal specials and handcrafted cocktails.
+        </p>
+        <p class="offer-date">Every Sunday, 10 AM - 2 PM</p>
+        <button class="offer-btn">View Menu</button>
+      </div>
+      <!-- Offer/Event Card 3 -->
+      <div class="offer-card">
+        <h3 class="offer-title">Chef's Tasting Menu</h3>
+        <p class="offer-description">
+          Experience a unique multi-course tasting menu curated by our chef every Wednesday.
+        </p>
+        <p class="offer-date">Wednesdays, 7 PM</p>
+        <button class="offer-btn">Book a Table</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Reservation Section -->
+<section class="reservation-section">
+    <div class="reservation-overlay">
+        <h2 class="reservation-title">Reserve Your Table</h2>
+        <p class="reservation-description">
+            Experience a delightful dining experience with us. Book your table now!
+        </p>
+        <form class="reservation-form">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <input type="tel" placeholder="Phone Number" required>
+            <input type="date" required>
+            <input type="time" required>
+            <button type="submit" class="reservation-btn">Book Now</button>
+        </form>
+    </div>
+</section>
+
+<section id="contact" class="contact-section">
+    <div class="container">
+      <!-- Contact Us Heading -->
+      <h2 class="section-title">Find Us</h2>
+      
+      <!-- Contact Info and Map -->
+      <div class="contact-info">
+        <div class="contact-details">
+          <p><strong>Address:</strong> 123 Gourmet St, Flavor City, FC 45678</p>
+          <p><strong>Phone:</strong> +1 (234) 567-890</p>
+          <p><strong>Email:</strong> contact@restaurant.com</p>
+          <p><strong>Hours:</strong> Mon-Sun: 10 AM - 10 PM</p>
+        </div>
+        
+        <!-- Google Map Embed -->
+        <div class="map-container">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.363596469962!2d-122.
+          41941508468127!3d37.77492977975977!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808580a7
+          1e7b3b79%3A0xb7d8e4f18e930125!2sSan%20Francisco%2C%20CA%2C%20USA!5e0!3m2!1sen!2sin!4v1615430071072
+          !5m2!1sen!2sin"
+            width="600" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+      </div>
+    </div>
+  </section>  
+
+  <!-- Footer Section -->
+<footer class="footer">
+    <div class="footer-container">
+        <!-- Quick Links Section -->
+        <div class="footer-links">
+            <h3>Quick Links</h3>
+            <ul>
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">Reservations</a></li>
+                <li><a href="#">Gallery</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+
+        <!-- Contact Info Section -->
+        <div class="footer-contact">
+            <h3>Contact Us</h3>
+            <p>123 Main Street, City, Country</p>
+            <p>Email: <a href="mailto:info@restaurant.com">info@restaurant.com</a></p>
+            <p>Phone: +123 456 7890</p>
+        </div>
+
+        <!-- Social Media Section -->
+        <div class="footer-social">
+            <h3>Follow Us</h3>
+            <div class="social-icons">
+                <a href="#" target="_blank" class="social-icon">FB</a>
+                <a href="#" target="_blank" class="social-icon">IG</a>
+                <a href="#" target="_blank" class="social-icon">TW</a>
+                <a href="#" target="_blank" class="social-icon">YT</a>
+            </div>
+        </div>
+
+        <!-- Newsletter Signup -->
+        <div class="footer-newsletter">
+            <h3>Subscribe to Our Newsletter</h3>
+            <form action="#" method="post">
+                <input type="email" placeholder="Enter your email" required>
+                <button type="submit">Subscribe</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Footer Bottom -->
+    <div class="footer-bottom">
+        <p>&copy; 2024 Restaurant Name. All Rights Reserved.</p>
+        <p><a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+    </div>
+</footer>
+
+
+
+</body>
+</html>
